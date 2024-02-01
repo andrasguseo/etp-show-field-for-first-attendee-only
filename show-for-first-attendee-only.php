@@ -136,6 +136,13 @@ function et_hide_fields() {
                         }
                     );
                 }
+                
+		        // Add listener to remove buttons.
+                document.querySelectorAll('.tribe-tickets__attendee-tickets-item-remove').forEach(
+                    function(item) {
+                        item.addEventListener('click', hideFields);
+                    }
+                );
             }
 		</script><?php
 	}
