@@ -28,6 +28,7 @@ Add the snippet to your functions.php file or with a plugin like [Code Snippets]
 - Tweak - Script enhancements and simplifications.
 - Fix - Make script work with radio buttons and checkboxes.
 - Fix - Ensure the script works for all tickets in the cart.
+- Fix - Hide fields when deleting an attendee with the delete button.
 
 ### [1.0.0] 2024-01-31
 - Initial script
